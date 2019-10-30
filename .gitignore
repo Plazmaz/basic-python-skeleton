@@ -1,0 +1,12 @@
+!src/
+!src/**.py
+!Pipfile
+!Pipfile.lock
+
+!.gitignore
+!README.md
+
+# Kill these no matter where they are
+*.pyc
+**/__pycache__/**
+src/**.pytest_cache
